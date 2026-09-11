@@ -689,3 +689,9 @@ h3 {
 .timeline-item li::marker {
   color: var(--accent);
 }
+
+
+.contact-actions {
+  justify-content: center;
+  margin-top: 28px;
+}
