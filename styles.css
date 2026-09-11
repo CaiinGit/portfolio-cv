@@ -666,3 +666,26 @@ h3 {
     justify-content: center;
   }
 }
+
+
+.timeline-subtitle {
+  color: var(--accent) !important;
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+  font-size: .78rem;
+  letter-spacing: .02em;
+  margin-bottom: 14px !important;
+}
+
+.timeline-item ul {
+  margin: 14px 0 0;
+  padding-left: 18px;
+  color: var(--muted);
+}
+
+.timeline-item li {
+  margin-bottom: 7px;
+}
+
+.timeline-item li::marker {
+  color: var(--accent);
+}
