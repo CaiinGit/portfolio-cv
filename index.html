@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Portfolio de Valentin Brizard, étudiant en cybersécurité et administrateur de son homelab personnel.">
+  <meta name="theme-color" content="#0a0f1d">
+  <title>Valentin Brizard — Portfolio & Cybersécurité</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Retour en haut">
+      <span class="brand-mark">VB</span>
+      <span>Valentin Brizard</span>
+    </a>
+
+    <button class="menu-toggle" type="button" aria-label="Ouvrir le menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="nav" aria-label="Navigation principale">
+      <a href="#profil">Profil</a>
+      <a href="#competences">Compétences</a>
+      <a href="#parcours">Parcours</a>
+      <a href="#projets">Projets</a>
+      <a class="nav-cta" href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero section">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">PORTFOLIO // CYBERSÉCURITÉ</p>
+        <h1>
+          Je construis, j’administre et je
+          <span class="accent">sécurise</span> des environnements numériques.
+        </h1>
+        <p class="hero-text">
+          Je suis Valentin Brizard, actuellement en mastère cybersécurité.
+          Mon parcours mêle développement web, administration Linux, réseau,
+          Docker et apprentissage pratique à travers mon propre homelab.
+        </p>
+
+        <div class="hero-actions">
+          <a class="button primary" href="#projets">Voir mes projets</a>
+          <a class="button ghost" href="https://github.com/CaiinGit" target="_blank" rel="noreferrer">GitHub ↗</a>
+        </div>
+
+        <ul class="quick-facts" aria-label="Informations principales">
+          <li><span>01</span> Linux & serveurs</li>
+          <li><span>02</span> Réseau & sécurité</li>
+          <li><span>03</span> Docker & web</li>
+        </ul>
+      </div>
+
+      <div class="hero-terminal reveal" aria-label="Présentation sous forme de terminal">
+        <div class="terminal-top">
+          <div class="terminal-dots" aria-hidden="true">
+            <i></i><i></i><i></i>
+          </div>
+          <span>caiin@serverdecaiin</span>
+        </div>
+        <div class="terminal-body">
+          <p><span class="prompt">$</span> whoami</p>
+          <p class="output">Valentin Brizard</p>
+          <p><span class="prompt">$</span> cat focus.txt</p>
+          <p class="output">cybersecurity · linux · networking · docker</p>
+          <p><span class="prompt">$</span> uptime --human</p>
+          <p class="output">learning continuously</p>
+          <p><span class="prompt">$</span> status</p>
+          <p class="output success">● available for opportunities</p>
+          <p class="cursor-line"><span class="prompt">$</span> <span class="cursor"></span></p>
+        </div>
+      </div>
+    </section>
+
+    <section id="profil" class="section split">
+      <div class="section-heading reveal">
+        <p class="eyebrow">01 // PROFIL</p>
+        <h2>Du développement à la cybersécurité.</h2>
+      </div>
+      <div class="profile-copy reveal">
+        <p>
+          Mon parcours a commencé par le développement web avant de s’élargir
+          vers l’informatique générale puis la cybersécurité. Cette progression
+          me permet d’aborder un système aussi bien du côté applicatif que du
+          côté infrastructure.
+        </p>
+        <p>
+          Je privilégie l’apprentissage par la pratique : administration d’un
+          serveur Ubuntu, déploiement de services Docker, configuration réseau,
+          sécurisation SSH et supervision d’un environnement personnel.
+        </p>
+        <div class="tags" aria-label="Domaines d'intérêt">
+          <span>Blue Team</span>
+          <span>Linux</span>
+          <span>Réseau</span>
+          <span>Docker</span>
+          <span>Web</span>
+          <span>Homelab</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="competences" class="section">
+      <div class="section-heading reveal">
+        <p class="eyebrow">02 // COMPÉTENCES</p>
+        <h2>Un socle technique polyvalent.</h2>
+      </div>
+
+      <div class="skill-grid">
+        <article class="skill-card reveal">
+          <span class="card-index">01</span>
+          <h3>Systèmes</h3>
+          <p>Administration Linux, Ubuntu Server, SSH, permissions, services systemd et maintenance.</p>
+          <div class="meter"><span style="--level: 82%"></span></div>
+        </article>
+
+        <article class="skill-card reveal">
+          <span class="card-index">02</span>
+          <h3>Réseau</h3>
+          <p>Adressage IP, DHCP, DNS, VLAN, pare-feu, diagnostic réseau et segmentation.</p>
+          <div class="meter"><span style="--level: 72%"></span></div>
+        </article>
+
+        <article class="skill-card reveal">
+          <span class="card-index">03</span>
+          <h3>Conteneurs</h3>
+          <p>Docker, Docker Compose, Portainer, déploiement et isolation de services.</p>
+          <div class="meter"><span style="--level: 76%"></span></div>
+        </article>
+
+        <article class="skill-card reveal">
+          <span class="card-index">04</span>
+          <h3>Développement web</h3>
+          <p>HTML, CSS, JavaScript, conception d’interfaces et bases du développement web.</p>
+          <div class="meter"><span style="--level: 80%"></span></div>
+        </article>
+      </div>
+    </section>
+
+    <section id="parcours" class="section">
+      <div class="section-heading reveal">
+        <p class="eyebrow">03 // PARCOURS</p>
+        <h2>Une progression vers la sécurité.</h2>
+      </div>
+
+      <div class="timeline">
+        <article class="timeline-item reveal">
+          <div class="timeline-date">2026 — aujourd’hui</div>
+          <div>
+            <h3>Mastère cybersécurité</h3>
+            <p>Approfondissement des compétences en sécurité des systèmes, réseau et administration.</p>
+          </div>
+        </article>
+
+        <article class="timeline-item reveal">
+          <div class="timeline-date">2024 — 2025</div>
+          <div>
+            <h3>Licence informatique</h3>
+            <p>CNAM Mulhouse — formation en alternance.</p>
+          </div>
+        </article>
+
+        <article class="timeline-item reveal">
+          <div class="timeline-date">2023 — 2024</div>
+          <div>
+            <h3>DEUST Technicien développement web</h3>
+            <p>CNAM Chalon-sur-Saône.</p>
+          </div>
+        </article>
+
+        <article class="timeline-item reveal">
+          <div class="timeline-date">2022 — 2023</div>
+          <div>
+            <h3>Intégrateur web junior</h3>
+            <p>CNAM Belfort — premières expériences professionnelles dans le développement web.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="projets" class="section">
+      <div class="section-heading reveal">
+        <p class="eyebrow">04 // PROJETS</p>
+        <h2>Apprendre en construisant.</h2>
+      </div>
+
+      <div class="project-grid">
+        <article class="project featured reveal">
+          <div class="project-meta">
+            <span>HOMELAB</span>
+            <span>EN COURS</span>
+          </div>
+          <h3>serverdecaiin</h3>
+          <p>
+            Serveur personnel sous Ubuntu Server construit pour expérimenter
+            l’administration système, le réseau, Docker et la cybersécurité.
+            Accès SSH par clé, pare-feu UFW, Portainer, Cockpit et supervision
+            du stockage font partie de la base déjà mise en place.
+          </p>
+          <ul>
+            <li>Ubuntu Server</li>
+            <li>Docker / Compose</li>
+            <li>SSH & UFW</li>
+            <li>Portainer</li>
+          </ul>
+        </article>
+
+        <article class="project reveal">
+          <div class="project-meta">
+            <span>WEB</span>
+            <span>2026</span>
+          </div>
+          <h3>Portfolio CV</h3>
+          <p>
+            Ce site est lui-même un projet : dépôt Git public, interface
+            responsive, conteneurisation Nginx et hébergement prévu sur mon
+            infrastructure personnelle.
+          </p>
+          <a href="https://github.com/CaiinGit/portfolio-cv" target="_blank" rel="noreferrer">Voir le dépôt ↗</a>
+        </article>
+
+        <article class="project muted reveal">
+          <div class="project-meta">
+            <span>LAB CYBER</span>
+            <span>À VENIR</span>
+          </div>
+          <h3>Environnement de laboratoire</h3>
+          <p>
+            Mise en place progressive d’environnements isolés destinés à
+            l’apprentissage de l’analyse réseau, du durcissement et de la
+            sécurité applicative.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact reveal">
+      <p class="eyebrow">05 // CONTACT</p>
+      <h2>Construisons quelque chose d’utile.</h2>
+      <p>
+        Mon GitHub présente mes projets techniques au fur et à mesure de leur
+        évolution. Les coordonnées professionnelles pourront être ajoutées ici
+        lors de la mise en ligne publique du CV.
+      </p>
+      <a class="button primary" href="https://github.com/CaiinGit" target="_blank" rel="noreferrer">github.com/CaiinGit ↗</a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span>© <span id="year"></span> Valentin Brizard</span>
+    <span>Hosted from my homelab.</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
