@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Portfolio de Valentin Brizard, étudiant en cybersécurité et administrateur de son homelab personnel.">
+  <meta name="description" content="Portfolio de Valentin Brizard, étudiant en mastère cybersécurité avec une expérience en DSI, administration système, réseau et développement web.">
   <meta name="theme-color" content="#0a0f1d">
   <title>Valentin Brizard — Portfolio & Cybersécurité</title>
   <link rel="stylesheet" href="styles.css">
@@ -24,7 +24,8 @@
     <nav class="nav" aria-label="Navigation principale">
       <a href="#profil">Profil</a>
       <a href="#competences">Compétences</a>
-      <a href="#parcours">Parcours</a>
+      <a href="#experience">Expérience</a>
+      <a href="#formation">Formation</a>
       <a href="#projets">Projets</a>
       <a class="nav-cta" href="#contact">Contact</a>
     </nav>
@@ -40,19 +41,19 @@
         </h1>
         <p class="hero-text">
           Je suis Valentin Brizard, actuellement en mastère cybersécurité.
-          Mon parcours mêle développement web, administration Linux, réseau,
-          Docker et apprentissage pratique à travers mon propre homelab.
+          Mon parcours combine expérience en DSI, développement web,
+          administration Linux, réseau et déploiement de services.
         </p>
 
         <div class="hero-actions">
-          <a class="button primary" href="#projets">Voir mes projets</a>
+          <a class="button primary" href="#experience">Voir mon parcours</a>
           <a class="button ghost" href="https://github.com/CaiinGit" target="_blank" rel="noreferrer">GitHub ↗</a>
         </div>
 
         <ul class="quick-facts" aria-label="Informations principales">
-          <li><span>01</span> Linux & serveurs</li>
-          <li><span>02</span> Réseau & sécurité</li>
-          <li><span>03</span> Docker & web</li>
+          <li><span>01</span> Belfort, France</li>
+          <li><span>02</span> Mastère cybersécurité</li>
+          <li><span>03</span> Présentiel / télétravail</li>
         </ul>
       </div>
 
@@ -68,10 +69,10 @@
           <p class="output">Valentin Brizard</p>
           <p><span class="prompt">$</span> cat focus.txt</p>
           <p class="output">cybersecurity · linux · networking · docker</p>
-          <p><span class="prompt">$</span> uptime --human</p>
-          <p class="output">learning continuously</p>
+          <p><span class="prompt">$</span> cat experience.txt</p>
+          <p class="output">DSI · web development · technical support</p>
           <p><span class="prompt">$</span> status</p>
-          <p class="output success">● available for opportunities</p>
+          <p class="output success">● open to opportunities</p>
           <p class="cursor-line"><span class="prompt">$</span> <span class="cursor"></span></p>
         </div>
       </div>
@@ -80,27 +81,29 @@
     <section id="profil" class="section split">
       <div class="section-heading reveal">
         <p class="eyebrow">01 // PROFIL</p>
-        <h2>Du développement à la cybersécurité.</h2>
+        <h2>Un profil technique construit par la pratique.</h2>
       </div>
       <div class="profile-copy reveal">
         <p>
-          Mon parcours a commencé par le développement web avant de s’élargir
-          vers l’informatique générale puis la cybersécurité. Cette progression
-          me permet d’aborder un système aussi bien du côté applicatif que du
-          côté infrastructure.
+          Autonome, enthousiaste et sérieux, j’apprécie les environnements
+          techniques où il faut comprendre, diagnostiquer et améliorer
+          l’existant. Mon parcours a commencé dans le développement web avant
+          d’évoluer vers l’infrastructure, le réseau et la cybersécurité.
         </p>
         <p>
-          Je privilégie l’apprentissage par la pratique : administration d’un
-          serveur Ubuntu, déploiement de services Docker, configuration réseau,
-          sécurisation SSH et supervision d’un environnement personnel.
+          Mes expériences en collectivité m’ont amené à travailler sur des
+          sujets concrets : téléphonie, SSH, supervision réseau, pare-feu,
+          support technique, refonte de site web et développement
+          d’applications internes.
         </p>
         <div class="tags" aria-label="Domaines d'intérêt">
-          <span>Blue Team</span>
+          <span>Cybersécurité</span>
           <span>Linux</span>
           <span>Réseau</span>
           <span>Docker</span>
           <span>Web</span>
           <span>Homelab</span>
+          <span>Support IT</span>
         </div>
       </div>
     </section>
@@ -108,76 +111,148 @@
     <section id="competences" class="section">
       <div class="section-heading reveal">
         <p class="eyebrow">02 // COMPÉTENCES</p>
-        <h2>Un socle technique polyvalent.</h2>
+        <h2>Technique, adaptation et autonomie.</h2>
       </div>
 
       <div class="skill-grid">
         <article class="skill-card reveal">
           <span class="card-index">01</span>
           <h3>Systèmes</h3>
-          <p>Administration Linux, Ubuntu Server, SSH, permissions, services systemd et maintenance.</p>
+          <p>Ubuntu Server, Linux, SSH, permissions, services systemd, maintenance et administration courante.</p>
           <div class="meter"><span style="--level: 82%"></span></div>
         </article>
 
         <article class="skill-card reveal">
           <span class="card-index">02</span>
-          <h3>Réseau</h3>
-          <p>Adressage IP, DHCP, DNS, VLAN, pare-feu, diagnostic réseau et segmentation.</p>
-          <div class="meter"><span style="--level: 72%"></span></div>
+          <h3>Réseau & sécurité</h3>
+          <p>Adressage IP, DHCP, DNS, pare-feu, diagnostic, supervision réseau et sécurisation d’accès.</p>
+          <div class="meter"><span style="--level: 76%"></span></div>
         </article>
 
         <article class="skill-card reveal">
           <span class="card-index">03</span>
-          <h3>Conteneurs</h3>
-          <p>Docker, Docker Compose, Portainer, déploiement et isolation de services.</p>
+          <h3>Docker</h3>
+          <p>Docker, Docker Compose, Portainer, déploiement et isolation de services sur serveur Linux.</p>
           <div class="meter"><span style="--level: 76%"></span></div>
         </article>
 
         <article class="skill-card reveal">
           <span class="card-index">04</span>
           <h3>Développement web</h3>
-          <p>HTML, CSS, JavaScript, conception d’interfaces et bases du développement web.</p>
+          <p>HTML, CSS, JavaScript, interfaces web, front-end, back-end et intégration avec base de données.</p>
           <div class="meter"><span style="--level: 80%"></span></div>
+        </article>
+
+        <article class="skill-card reveal">
+          <span class="card-index">05</span>
+          <h3>Qualités</h3>
+          <p>Dynamique, ponctuel et motivé. Capacité d’adaptation, autonomie et gestion des priorités.</p>
+          <div class="meter"><span style="--level: 88%"></span></div>
+        </article>
+
+        <article class="skill-card reveal">
+          <span class="card-index">06</span>
+          <h3>Langues</h3>
+          <p>Anglais courant et allemand scolaire.</p>
+          <div class="meter"><span style="--level: 72%"></span></div>
         </article>
       </div>
     </section>
 
-    <section id="parcours" class="section">
+    <section id="experience" class="section">
       <div class="section-heading reveal">
-        <p class="eyebrow">03 // PARCOURS</p>
-        <h2>Une progression vers la sécurité.</h2>
+        <p class="eyebrow">03 // EXPÉRIENCE</p>
+        <h2>Des missions concrètes en environnement professionnel.</h2>
       </div>
 
       <div class="timeline">
         <article class="timeline-item reveal">
-          <div class="timeline-date">2026 — aujourd’hui</div>
+          <div class="timeline-date">SEPT. 2024 — JUIL. 2025</div>
+          <div>
+            <h3>Agent de la DSI — Conseil départemental de Belfort</h3>
+            <p class="timeline-subtitle">Contrat d’apprentissage · Belfort</p>
+            <ul>
+              <li>Déploiement de la nouvelle téléphonie sur le territoire de Belfort.</li>
+              <li>Import et sécurisation d’une structure SSH sur un nouveau serveur.</li>
+              <li>Amélioration de la partie supervision du réseau.</li>
+              <li>Déploiement d’un nouveau pare-feu.</li>
+              <li>Contribution aux opérations quotidiennes de la DSI.</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="timeline-item reveal">
+          <div class="timeline-date">SEPT. 2023 — JUIL. 2024</div>
+          <div>
+            <h3>Technicien développement web & assistant technique — Mairie de Morvillars</h3>
+            <p class="timeline-subtitle">Contrat d’apprentissage · Morvillars</p>
+            <ul>
+              <li>Refonte complète du site internet de la commune.</li>
+              <li>Création d’un logo.</li>
+              <li>Participation à la digitalisation de la municipalité.</li>
+              <li>Support informatique au quotidien.</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="timeline-item reveal">
+          <div class="timeline-date">FÉV. 2022 — JUIL. 2023</div>
+          <div>
+            <h3>Développement d’une application — Direction des systèmes d’information</h3>
+            <p class="timeline-subtitle">Stage · Conseil départemental de Belfort</p>
+            <ul>
+              <li>Création d’une application privée et sécurisée reliée à une base de données destinée aux archives du département.</li>
+              <li>Développement d’interfaces web front-end et back-end.</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="formation" class="section">
+      <div class="section-heading reveal">
+        <p class="eyebrow">04 // FORMATION</p>
+        <h2>Du web à la cybersécurité.</h2>
+      </div>
+
+      <div class="timeline">
+        <article class="timeline-item reveal">
+          <div class="timeline-date">2026 — AUJOURD’HUI</div>
           <div>
             <h3>Mastère cybersécurité</h3>
-            <p>Approfondissement des compétences en sécurité des systèmes, réseau et administration.</p>
+            <p>Formation en cours, orientée sécurité des systèmes, réseau et administration.</p>
           </div>
         </article>
 
         <article class="timeline-item reveal">
-          <div class="timeline-date">2024 — 2025</div>
+          <div class="timeline-date">SEPT. 2024 — JUIL. 2025</div>
           <div>
-            <h3>Licence informatique</h3>
-            <p>CNAM Mulhouse — formation en alternance.</p>
+            <h3>Licence professionnelle Informatique / Cybersécurité</h3>
+            <p>CNAM — formation en alternance.</p>
           </div>
         </article>
 
         <article class="timeline-item reveal">
-          <div class="timeline-date">2023 — 2024</div>
+          <div class="timeline-date">SEPT. 2023 — JUIN 2024</div>
           <div>
-            <h3>DEUST Technicien développement web</h3>
+            <h3>DEUST Intégrateur web informatique</h3>
             <p>CNAM Chalon-sur-Saône.</p>
           </div>
         </article>
 
         <article class="timeline-item reveal">
-          <div class="timeline-date">2022 — 2023</div>
+          <div class="timeline-date">OCT. 2022 — JUIN 2023</div>
           <div>
-            <h3>Intégrateur web junior</h3>
-            <p>CNAM Belfort — premières expériences professionnelles dans le développement web.</p>
+            <h3>Intégrateur web junior — Bac +1 informatique</h3>
+            <p>CNAM Belfort.</p>
+          </div>
+        </article>
+
+        <article class="timeline-item reveal">
+          <div class="timeline-date">SEPT. 2020 — JUIN 2021</div>
+          <div>
+            <h3>Baccalauréat scientifique</h3>
+            <p>Lycée Sainte-Marie, Belfort.</p>
           </div>
         </article>
       </div>
@@ -185,7 +260,7 @@
 
     <section id="projets" class="section">
       <div class="section-heading reveal">
-        <p class="eyebrow">04 // PROJETS</p>
+        <p class="eyebrow">05 // PROJETS</p>
         <h2>Apprendre en construisant.</h2>
       </div>
 
@@ -197,16 +272,19 @@
           </div>
           <h3>serverdecaiin</h3>
           <p>
-            Serveur personnel sous Ubuntu Server construit pour expérimenter
+            Serveur personnel sous Ubuntu Server conçu pour expérimenter
             l’administration système, le réseau, Docker et la cybersécurité.
-            Accès SSH par clé, pare-feu UFW, Portainer, Cockpit et supervision
-            du stockage font partie de la base déjà mise en place.
+            La base comprend un accès SSH par clé, UFW, Portainer, Cockpit,
+            Docker Compose, supervision SMART du SSD et une configuration
+            réseau dédiée.
           </p>
           <ul>
             <li>Ubuntu Server</li>
             <li>Docker / Compose</li>
-            <li>SSH & UFW</li>
+            <li>SSH par clé</li>
+            <li>UFW</li>
             <li>Portainer</li>
+            <li>Cockpit</li>
           </ul>
         </article>
 
@@ -217,9 +295,9 @@
           </div>
           <h3>Portfolio CV</h3>
           <p>
-            Ce site est lui-même un projet : dépôt Git public, interface
-            responsive, conteneurisation Nginx et hébergement prévu sur mon
-            infrastructure personnelle.
+            Ce site fait partie du projet : code versionné sur GitHub,
+            interface responsive, conteneurisation avec Nginx et hébergement
+            sur mon propre serveur Ubuntu.
           </p>
           <a href="https://github.com/CaiinGit/portfolio-cv" target="_blank" rel="noreferrer">Voir le dépôt ↗</a>
         </article>
@@ -240,12 +318,12 @@
     </section>
 
     <section id="contact" class="section contact reveal">
-      <p class="eyebrow">05 // CONTACT</p>
-      <h2>Construisons quelque chose d’utile.</h2>
+      <p class="eyebrow">06 // CONTACT</p>
+      <h2>Disponible pour de nouvelles opportunités.</h2>
       <p>
-        Mon GitHub présente mes projets techniques au fur et à mesure de leur
-        évolution. Les coordonnées professionnelles pourront être ajoutées ici
-        lors de la mise en ligne publique du CV.
+        Basé à Belfort, titulaire du permis B et véhiculé. Je suis ouvert aux
+        opportunités en présentiel comme en télétravail. Mes coordonnées
+        directes pourront être ajoutées ici lors de la mise en ligne publique.
       </p>
       <a class="button primary" href="https://github.com/CaiinGit" target="_blank" rel="noreferrer">github.com/CaiinGit ↗</a>
     </section>
